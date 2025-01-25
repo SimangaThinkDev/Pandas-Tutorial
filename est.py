@@ -50,10 +50,10 @@ print(df.loc[0]) #First Row (not column)
 # Name: 0, dtype: object
 
 #open a csv file, I got the sample csv from the internet
-csv_path = "/home/wtc/Documents/side pojs/Pandas Configuration/Pandas-Tutorial/customers-100.csv"
+csv_path = "customers-100.csv"
 ndf = pd.read_csv(csv_path)
 
-#Print the rown default
+#Print the row default
 #print(ndf) #But as you can see it prints the rows but only 10, which is the first 5 and last five 
 
 #To fix this
@@ -76,7 +76,7 @@ Let's talk JSON!!!!
 #I downloaded a JSON file for referential purposes. I currently don't know what it contains, let's Find out :)
 
 #read JSON file
-json_path = "/home/wtc/Documents/side pojs/Pandas Configuration/Pandas-Tutorial/sample.json"
+json_path = "sample.json"
 jdf = pd.read_json(json_path)
 
 #Print the Contents of your JSON file
