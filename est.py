@@ -94,7 +94,7 @@ print(jdf.tail())
 #___________________________________________CLEANING DATA___________________________________________________#
 
 #we will now use the data.csv file
-new_csv_path = "/home/wtc/Documents/side pojs/Pandas Configuration/Pandas-Tutorial/data.csv"
+new_csv_path = "data.csv"
 exmp = pd.read_csv(new_csv_path)
 
 #we are looking for
